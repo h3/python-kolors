@@ -94,13 +94,22 @@ git push -q --set-upstream origin $BRANCH > /dev/null
 git checkout -q master
 
 echo " [info] Pushing to PyPi"
-./venv/bin/pip install -q wheel
+./venv/bin/pip install -q wheel twine
 ./venv/bin/python setup.py sdist
 ./venv/bin/python setup.py bdist_wheel --universal
 ./venv/bin/twine upload dist/*
 
+if [ $? -eq 0 ]; then
+    echo OK
+    echo " [done] Published release v$NEXT_VERSION"
+    echo
+    rm -rf venv
+    exit 0
+else
+    echo " [FAIL] Failed to publish v$NEXT_VERSION"
+    echo
+    rm -rf venv
+    exit 1
+fi
 
-echo " [done] Published release v$NEXT_VERSION"
-echo
-rm -rf venv
-exit 0
+
