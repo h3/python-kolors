@@ -71,7 +71,7 @@ git commit -aqm "Version bump: $CURRENT_VERSION -> $NEXT_VERSION @wip"
 git push -q
 
 echo " [info] Creating tag v$NEXT_VERSION"
-git tag -s "v$NEXT_VERSION" -m "Release $NEXT_VERSION"
+git tag "v$NEXT_VERSION" -m "Release $NEXT_VERSION"
 git push --tags origin "v$NEXT_VERSION"
 
 echo " [info] Updating changelog"
