@@ -8,7 +8,6 @@ It also checks if terminal supports color before vomitting ANSI codes.
 Usage
 -----
 
-
 .. code-block:: python
 
     from kolors import c
