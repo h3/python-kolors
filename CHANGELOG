@@ -4,6 +4,7 @@ Changelog
 
 (unreleased)
 ------------
+- Fix readme formatting for cheeseshop. [Scott Doucet]
 - Rolled back setup.py version for release. [Maxime Haineault]
 - Fix in do-release script. [Maxime Haineault]
 - Rolled back setup.py version for release. [Maxime Haineault]

@@ -12,7 +12,7 @@ setup(
     name='kolors',
     version='0.0.1',
     description='Simple and lightweight shell color output function.',
-    long_description=(read('README.md')),
+    long_description=(read('README.rst')),
     author='Maxime Haineault',
     author_email='haineault@gmail.com',
     license='MIT',
