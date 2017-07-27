@@ -16,7 +16,7 @@ setup(
     author='Maxime Haineault',
     author_email='haineault@gmail.com',
     license='MIT',
-    url='https://github.com/h3/django-pdfutils',
+    url='https://github.com/h3/python-kolors',
     packages=find_packages(),
     include_package_data=True,
     package_data={'kolors': [
