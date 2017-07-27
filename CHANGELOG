@@ -4,6 +4,10 @@ Changelog
 
 (unreleased)
 ------------
+- Translated README.md to README.rst (thanks u/flying-sheep) [Maxime
+  Haineault]
+- Updated release script (yeah again) [Maxime Haineault]
+- Updated release script. [Maxime Haineault]
 - Updated release script. [Maxime Haineault]
 - Fixed project URL. [Maxime Haineault]
 
