@@ -4,6 +4,8 @@ Changelog
 
 (unreleased)
 ------------
+- Rolled back setup.py version for release. [Maxime Haineault]
+- Release script fix. [Maxime Haineault]
 - Updated release scriptp. [Maxime Haineault]
 - Preparing packaging. [Maxime Haineault]
 - File mode. [Maxime Haineault]
