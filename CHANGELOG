@@ -1,16 +1,11 @@
-# Change Log
-All notable changes to this project will be documented in this file.
-
-The format is based on [Keep a Changelog](http://keepachangelog.com/)
-and this project adheres to [Semantic Versioning](http://semver.org/).
+Changelog
+=========
 
 
-## [Unreleased]
-### Added
+(unreleased)
+------------
+- File mode. [Maxime Haineault]
+- Initial import. [Maxime Haineault]
+- Initial commit. [Maxime Haineault]
 
-### Changed
 
-
-## 0.0.1 - 2017-07-27
-### Added
-- Initial release
