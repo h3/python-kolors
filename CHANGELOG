@@ -4,6 +4,7 @@ Changelog
 
 (unreleased)
 ------------
+- Rolled back setup.py version for release. [Maxime Haineault]
 - Fix in do-release script. [Maxime Haineault]
 - Rolled back setup.py version for release. [Maxime Haineault]
 - Rolled back setup.py version for release. [Maxime Haineault]
