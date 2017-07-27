@@ -19,10 +19,6 @@ setup(
     url='https://github.com/h3/python-kolors',
     packages=find_packages(),
     include_package_data=True,
-    package_data={'kolors': [
-        'README.md',
-        'CHANGELOG',
-        ]},
     zip_safe=True,
     classifiers=[
         'Environment :: Console',
