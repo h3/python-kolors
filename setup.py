@@ -10,7 +10,7 @@ def read(fname):
 
 setup(
     name='kolors',
-    version='0.0.1',
+    version='0.0.0',
     description='Simple and lightweight shell color output function.',
     long_description=(read('README.md')),
     author='Maxime Haineault',
@@ -25,7 +25,6 @@ setup(
         ]},
     zip_safe=True,
     classifiers=[
-        'Environment :: Shell',
         'Intended Audience :: Developers',
         'License :: OSI Approved :: MIT License',
         'Operating System :: OS Independent',
