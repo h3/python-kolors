@@ -19,12 +19,9 @@ setup(
     url='https://github.com/h3/python-kolors',
     packages=find_packages(),
     include_package_data=True,
-    package_data={'kolors': [
-        'README.rst',
-        'CHANGELOG',
-        ]},
     zip_safe=True,
     classifiers=[
+        'Environment :: Console',
         'Intended Audience :: Developers',
         'License :: OSI Approved :: MIT License',
         'Operating System :: OS Independent',

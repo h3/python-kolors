@@ -8,7 +8,8 @@ It also checks if terminal supports color before vomitting ANSI codes.
 Usage
 -----
 
-.. code:: python
+
+.. code-block:: python
 
     from kolors import c
 
@@ -16,28 +17,28 @@ Usage
     print c('<green bg>Some green background</end>')
     print c('Some <cyan bold bg>{}</end>').format('interpolation')
 
-**Note**: the keyword in the closing tag isn't really relevant, but I
-like to use "" everywhere for shortness and consistency. Simple shell
-color output function.
+
+.. note:: The keyword in the closing tag isn't really relevant, but I like to use "</end>" everywhere for shortness and consistency.  Simple shell color output function.
 
 
 Colors
 ------
 
--  grey (alias: gray)
--  red
--  green
--  yellow
--  blue
--  magenta (alias: purple)
--  cyan
--  white
+* grey (alias: gray)
+* red
+* green
+* yellow
+* blue
+* magenta (alias: purple)
+* cyan
+* white
+
 
 Styles
-======
+------
 
--  bold
--  bg
+* bold
+* bg
 
 
 Roadmap
@@ -49,9 +50,9 @@ The features bellow were suggested, I'm seriously considering them for the next 
 
 
 Use curses
-==========
+**********
 
-.. code:: python
+.. code-block:: python
 
     import curses
 
@@ -76,14 +77,14 @@ Note: thanks u/awegge!
 
 
 Cleaner, nestable syntax
-========================
+************************
 
-.. code:: xml
+.. code-block:: xml
 
     <fg red>Red text<b>Red bold text <bg blue>Red bold tect on Blue background</bg>red bold again</b>Just red again </fg>
 
 
 Wrapping around other libraries
-===============================
+*******************************
 
 Like colorama & click.style
