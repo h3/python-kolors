@@ -49,7 +49,7 @@ fi
 # Make sure we are in sync with remote
 git checkout -q master && git fetch -q && git pull -q
 
- Verify that there is nothing to commit
+# Verify that there is nothing to commit
 if [ $(git_is_dirty) -eq 1 ]; then
     git status
     echo
