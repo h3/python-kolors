@@ -4,6 +4,24 @@ Changelog
 
 (unreleased)
 ------------
+
+
+0.0.3 (2017-07-27)
+------------
+- Translated README.md to README.rst (thanks u/flying-sheep) [Maxime
+  Haineault]
+
+
+0.0.2 (2017-07-27)
+------------
+- Updated release script (yeah again) [Maxime Haineault]
+- Updated release script. [Maxime Haineault]
+- Updated release script. [Maxime Haineault]
+- Fixed project URL. [Maxime Haineault]
+
+
+0.0.1 (2017-07-27)
+------------------
 - Rolled back setup.py version for release. [Maxime Haineault]
 - Fix in do-release script. [Maxime Haineault]
 - Rolled back setup.py version for release. [Maxime Haineault]
