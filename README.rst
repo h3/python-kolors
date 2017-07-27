@@ -45,7 +45,34 @@ Roadmap
 
 Not sure where this project will go, but suggestions and pull requests are welcome.
 
-The two features bellow were suggested, I'm seriously considering them for the next iteration.
+The features bellow were suggested, I'm seriously considering them for the next iterations.
+
+
+Use curses
+==========
+
+.. code:: python
+
+    import curses
+
+    curses.setupterm()
+
+    if curses.tigetstr('setf') is not None:
+        # Red foreground, if supported.
+        print (curses.tparm(curses.tigetstr('setf'), curses.COLOR_RED).decode('utf-8'))
+
+From man 5 terminfo:
+
+> To  change  the  current  foreground  or background color on a Tek‐
+> tronix-type terminal, use setaf (set  ANSI  foreground)  and  setab
+> (set  ANSI background) or setf (set foreground) and setb (set back‐
+> ground).  These take one parameter, the  color  number.   The  SVr4
+> documentation  describes only setaf/setab; the XPG4 draft says that
+> "If the terminal supports ANSI escape sequences to  set  background
+> and  foreground,  they  should be coded as setaf and setab, respec‐
+> tively.
+
+Note: thanks u/awegge!
 
 
 Cleaner, nestable syntax
