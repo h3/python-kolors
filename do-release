@@ -71,7 +71,7 @@ git commit -aqm "Version bump: $CURRENT_VERSION -> $NEXT_VERSION @wip"
 git push -q
 
 echo " [info] Creating tag v$NEXT_VERSION"
-git tag -s "v$NEXT_VERSION" -m "Release $NEXT_VERSION"
+git tag "v$NEXT_VERSION" -m "Release $NEXT_VERSION"
 git push --tags origin "v$NEXT_VERSION"
 
 echo " [info] Updating changelog"
@@ -97,7 +97,7 @@ echo " [info] Pushing to PyPi"
 ./venv/bin/pip install -q wheel twine
 ./venv/bin/python setup.py sdist
 ./venv/bin/python setup.py bdist_wheel --universal
-./venv/bin/twine upload dist/*
+./venv/bin/twine upload dist/kolors-$NEXT_VERSION*
 
 if [ $? -eq 0 ]; then
     echo OK
