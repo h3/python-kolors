@@ -97,7 +97,7 @@ echo " [info] Pushing to PyPi"
 ./venv/bin/pip install -q wheel twine
 ./venv/bin/python setup.py sdist
 ./venv/bin/python setup.py bdist_wheel --universal
-./venv/bin/twine upload dist/*
+./venv/bin/twine upload dist/kolors-$NEXT_VERSION-py2.py3-none-any.whl dist/kolors-$NEXT_VERSION-py2.py3-none-any.whl
 
 if [ $? -eq 0 ]; then
     echo OK
