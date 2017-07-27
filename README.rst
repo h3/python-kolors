@@ -20,6 +20,7 @@ Usage
 like to use "" everywhere for shortness and consistency. Simple shell
 color output function.
 
+
 Colors
 ------
 
@@ -37,3 +38,25 @@ Styles
 
 -  bold
 -  bg
+
+
+Roadmap
+-------
+
+Not sure where this project will go, but suggestions and pull requests are welcome.
+
+The two features bellow were suggested, I'm seriously considering them for the next iteration.
+
+
+Cleaner, nestable syntax
+========================
+
+.. code:: xml
+
+    <fg red>Red text<b>Red bold text <bg blue>Red bold tect on Blue background</bg>red bold again</b>Just red again </fg>
+
+
+Wrapping around other libraries
+===============================
+
+Like colorama & click.style
