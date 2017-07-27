@@ -4,6 +4,12 @@ Changelog
 
 (unreleased)
 ------------
+- Updated release script. [Maxime Haineault]
+- Fixed project URL. [Maxime Haineault]
+
+
+0.0.1 (2017-07-27)
+------------------
 - Rolled back setup.py version for release. [Maxime Haineault]
 - Fix in do-release script. [Maxime Haineault]
 - Rolled back setup.py version for release. [Maxime Haineault]
