@@ -4,21 +4,44 @@ Changelog
 
 (unreleased)
 ------------
-- Fix readme formatting for cheeseshop. [Scott Doucet]
+- Update README.rst. [Maxime Haineault]
+- Merge pull request #1 from networkjanitor/patch-1. [Maxime Haineault]
 
+  updated project url in setup.py
+- Updated project url in setup.py. [Xyoz Netsphere]
+- Merge pull request #2 from Duroktar/hotfix/fix-readme-formatting-on-
+  pypi. [Maxime Haineault]
 
-0.0.3 (2017-07-27)
-------------------
+  Fixed readme formatting on PyPi.
+- Merge branch 'master' into hotfix/fix-readme-formatting-on-pypi.
+  [Maxime Haineault]
+- Merge pull request #3 from remram44/fix. [Maxime Haineault]
+
+  Fix package structure
+- Merge branch 'master' into fix. [Maxime Haineault]
+- Updated README.rst. [Maxime Haineault]
+- Updated README. [Maxime Haineault]
 - Translated README.md to README.rst (thanks u/flying-sheep) [Maxime
   Haineault]
-
-
-0.0.2 (2017-07-27)
-------------------
 - Updated release script (yeah again) [Maxime Haineault]
 - Updated release script. [Maxime Haineault]
 - Updated release script. [Maxime Haineault]
 - Fixed project URL. [Maxime Haineault]
+- Convert README to RST. [Remi Rampin]
+- Fix incorrect package_data. [Remi Rampin]
+
+  package_data is not intended for that, and because the paths are
+  relative to the package this doesn't work (files don't get included).
+- Fix setup.py. [Remi Rampin]
+- Fix readme formatting on PyPi. [traBpUkciP]
+
+  This provides a cross-compatible README file
+  for both GitHub and PyPi.
+
+  Changes -
+  - `README.md` -> `README.rst`
+  - Update long_description source in `setup.py`
+  - Added name and description to `CHANGELOG`
 
 
 0.0.1 (2017-07-27)
